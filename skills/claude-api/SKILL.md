@@ -4,7 +4,6 @@ description: |-
  Reference for the Claude API / Anthropic SDK — model IDs, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.
 TRIGGER — read BEFORE opening the target file; never skip even for "one-liners" — when: prompt names Claude/Anthropic in any form (Claude, Anthropic, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`); user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse; debugging refusals/cutoffs/streaming/tool-calls/tokens).
 
-SKIP only when another provider is active: OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in query; OR grep hits on `openai|langchain_openai|google.generativeai|mistralai|cohere|ollama` (run grep FIRST if no provider named).
 license: Complete terms in LICENSE.txt
 ---
 
